@@ -1,0 +1,16 @@
+{
+    "name": "Paraphraser",
+    "version": "0.0.1",
+    "manifest_version":2,
+    "browser_action":{
+        "default_popup":"show.html",
+        "default_icon":"cod.png"
+    },
+    "icons":{
+        "256":"cod.png"
+    },
+    "permissions":["activeTab",
+        "webRequest",
+        "<all_urls>"
+    ]
+}
